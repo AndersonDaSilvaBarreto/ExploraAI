@@ -1,0 +1,25 @@
+Sistema de Recomendação de Locais para Viagens: "ExploraAI"
+1. Sobre o Sistema
+O "ExploraAI" é um aplicativo intuitivo e personalizado projetado para enriquecer a experiência de viagem de seus usuários. Ele atua como um guia inteligente, oferecendo recomendações sob medida para locais turísticos, hotéis acessíveis e restaurantes, com base nas preferências e localização atual do usuário. O sistema visa simplificar o planejamento de passeios, permitindo que os usuários descubram e selecionem facilmente destinos que se alinham aos seus interesses e necessidades.
+
+2. Público Alvo
+O "ExploraAí" é ideal para:
+
+Viajantes Independentes: Pessoas que gostam de explorar novos lugares por conta própria e buscam conveniência na descoberta de atrações e serviços locais.
+Turistas Nacionais e Internacionais: Visitantes que desejam otimizar sua estadia em uma nova cidade, encontrando rapidamente os melhores pontos de interesse, acomodações e opções gastronômicas.
+Usuários em Busca de Acessibilidade: Indivíduos que precisam de opções de hotéis acessíveis, garantindo uma experiência de viagem inclusiva.
+Indivíduos com Preferências Específicas: Usuários que valorizam recomendações personalizadas com base em gostos e orçamentos.
+Qualquer Pessoa em Busca de Lazer: Aqueles que procuram ideias para passeios de um dia ou atividades em sua própria cidade.
+3. Funcionalidades
+O "ExploraAí" oferece as seguintes funcionalidades chave:
+
+Abertura e Login/Cadastro Simplificados: O aplicativo permite um início rápido, com opções para usuários existentes fazerem login ou novos usuários se cadastrarem.
+Cadastro de Dados do Usuário: Para novos usuários, o sistema solicita informações básicas para criar um perfil.
+Cadastro de Preferências: Os usuários podem registrar suas preferências de viagem, o que é crucial para a personalização das recomendações.
+Captura de Localização Atual: O sistema detecta a localização do usuário para fornecer sugestões relevantes geograficamente.
+Múltiplas Opções de Busca: O usuário pode escolher entre diferentes categorias de interesse:
+Lugares Turísticos: Apresenta uma "lista de atrações" na região.
+Hotéis Acessíveis: Permite que o usuário informe seu "orçamento" e, em seguida, exibe uma "lista de hotéis" que atendem a esse critério e são acessíveis.
+Restaurantes: Fornece uma "lista de restaurantes" próximos.
+Seleção de Local: Após a exibição das listas, o usuário pode "selecionar um local" específico que despertou seu interesse.
+Exibição de Detalhes do Local: Uma vez que um local é selecionado, o sistema "exibe detalhes do local", fornecendo informações relevantes para ajudar o usuário a tomar sua decisão ou planejar sua visita.
