@@ -3,36 +3,67 @@ Requisitos do Sistema "ExploraAí"
 Os requisitos funcionais descrevem as funções e características que o sistema deve executar para atender às necessidades do usuário.
 
 RF001 - Autenticação de Usuário: O sistema deve permitir que usuários existentes façam login utilizando credenciais válidas (e-mail/usuário e senha).
+
 RF002 - Cadastro de Novo Usuário: O sistema deve permitir que novos usuários se cadastrem, coletando informações essenciais como nome, e-mail e senha.
+
 RF003 - Cadastro de Preferências do Usuário: O sistema deve permitir que o usuário cadastre e atualize suas preferências de viagem (e.g., tipo de culinária, faixa de preço, interesses turísticos).
+
 RF004 - Captura de Localização Atual: O sistema deve ser capaz de capturar a localização geográfica atual do usuário (com permissão explícita do usuário).
-RF005 - Pesquisa de Lugares Turísticos: O sistema deve permitir que o usuário visualize uma lista de atrações turísticas com base em sua localização atual e/ou preferências.
-RF006 - Pesquisa de Hotéis Acessíveis: O sistema deve permitir que o usuário pesquise hotéis acessíveis, oferecendo a opção de filtrar por orçamento.
-RF007 - Pesquisa de Restaurantes: O sistema deve permitir que o usuário visualize uma lista de restaurantes com base em sua localização atual e/ou preferências.
-RF008 - Seleção de Local: O sistema deve permitir que o usuário selecione um local (atração, hotel ou restaurante) de uma lista de resultados.
-RF009 - Exibição de Detalhes do Local: O sistema deve exibir informações detalhadas sobre o local selecionado, como endereço, descrição, horários de funcionamento, avaliações, fotos e informações de contato.
+
+RF005 - Localização de Cidade Escolhida: O sistema deve permitir que o usuário selecione uma cidade manualmente e, a partir disso, capturar a localização geográfica dessa cidade.
+
+RF006 - Pesquisa de Lugares Turísticos: O sistema deve permitir que o usuário visualize uma lista de atrações turísticas com base em sua localização atual e/ou preferências.
+
+RF007 - Pesquisa de Hotéis Acessíveis: O sistema deve permitir que o usuário pesquise hotéis acessíveis, oferecendo a opção de filtrar por orçamento.
+
+RF008 - Pesquisa de Restaurantes: O sistema deve permitir que o usuário visualize uma lista de restaurantes com base em sua localização atual e/ou preferências.
+
+RF009 - Seleção de Local: O sistema deve permitir que o usuário selecione um local (atração, hotel ou restaurante) de uma lista de resultados.
+
+RF0010 - Exibição de Detalhes do Local: O sistema deve exibir informações detalhadas sobre o local selecionado, como endereço, descrição, horários de funcionamento, avaliações, fotos e informações de contato.
+
+
+
 2. Requisitos Não Funcionais
 Os requisitos não funcionais especificam critérios que podem ser usados para julgar a operação de um sistema, em vez de comportamentos específicos do sistema.
 
-RNF001 - Usabilidade (UX/UI): O sistema deve possuir uma interface de usuário intuitiva, amigável e de fácil navegação, minimizando a curva de aprendizado para novos usuários.
+RNF001 - Usabilidade (UX/UI): 
+   RNF001.1 -  O sistema deve possuir uma interface de usuário intuitiva, amigável e de fácil navegação, minimizando a curva de aprendizado para novos usuários.
+
 RNF002 - Desempenho:
-RNF002.1 - Tempo de Resposta: As consultas de busca de locais devem retornar resultados em no máximo 3 segundos, mesmo em condições de alta demanda.
-RNF002.2 - Capacidade: O sistema deve ser capaz de suportar pelo menos 10.000 usuários simultâneos sem degradação significativa de desempenho.
+    RNF002.1 - Tempo de Resposta: O sistema deve garantir um tempo médio de resposta de até 3 segundos em 95% das requisições, mesmo sob carga alta.
+    RNF002.2 - Capacidade: O sistema deve ser capaz de suportar pelo menos 10.000 usuários simultâneos sem degradação significativa de desempenho.
+
 RNF003 - Segurança:
-RNF003.1 - Proteção de Dados: As informações pessoais dos usuários (e.g., e-mail, senha, preferências) devem ser criptografadas e armazenadas de forma segura.
-RNF003.2 - Autenticação Segura: As credenciais de login devem ser protegidas contra ataques de força bruta e injeção.
-RNF003.3 - Proteção de Privacidade: O sistema deve obter permissão explícita do usuário antes de acessar sua localização.
-RNF004 - Confiabilidade: O sistema deve ter uma taxa de disponibilidade de 99.9%, garantindo que esteja acessível na maior parte do tempo.
-RNF005 - Manutenibilidade: O código-fonte do sistema deve ser modular, bem documentado e fácil de modificar e estender para futuras funcionalidades.
-RNF006 - Portabilidade: O aplicativo deve ser compatível com as principais plataformas mobile (iOS e Android) e navegadores web modernos.
-RNF007 - Escalabilidade: O sistema deve ser projetado para permitir o crescimento do número de usuários e do volume de dados sem a necessidade de reengenharia significativa.
+    RNF003.1 - Proteção de Dados: As informações pessoais dos usuários (e.g., e-mail, senha, preferências) devem ser criptografadas e armazenadas de forma segura.
+    RNF003.2 - Autenticação Segura: As credenciais de login devem ser protegidas contra ataques de força bruta e injeção.
+    RNF003.3 - Proteção de Privacidade: O sistema deve obter permissão explícita do usuário antes de acessar sua localização.
+
+RNF004 - Confiabilidade:
+    RNF004.1 - O sistema deve apresentar uma taxa mínima de disponibilidade de 99,9% ao longo do tempo, garantindo que os serviços estejam acessíveis para os           usuários na maior parte do tempo. Essa confiabilidade deve ser assegurada por meio do uso de infraestrutura robusta, como servidores em nuvem com tolerância a      falhas, balanceamento de carga e monitoramento contínuo de funcionamento.
+
+RNF005 - Manutenibilidade: 
+    RNF005.1 - O código-fonte do sistema deve ser modular, bem documentado e fácil de modificar e estender para futuras funcionalidades.
+
+RNF006 - Portabilidade: 
+    RNF006.1 - O aplicativo deve ser compatível com as principais plataformas mobile (iOS e Android) e navegadores web modernos.
+
+RNF007 - Escalabilidade: 
+    RNF007.1 - O sistema deve ser projetado para permitir o crescimento do número de usuários e do volume de dados sem a necessidade de reengenharia significativa.
+
+
+
 3. Regras de Negócio
 As regras de negócio definem as políticas ou princípios operacionais de uma organização que o sistema deve seguir.
 
 RN001 - Personalização de Resultados: As recomendações de locais (turísticos, hotéis, restaurantes) devem ser priorizadas com base nas preferências registradas pelo usuário.
+
 RN002 - Georreferenciamento de Resultados: Todas as listas de locais exibidas devem ser relevantes para a localização atual do usuário, com um raio de busca configurável.
+
 RN003 - Validação de Orçamento de Hotéis: Ao buscar hotéis acessíveis, o orçamento fornecido pelo usuário deve ser validado para garantir que seja um valor numérico positivo.
+
 RN004 - Exibição de Informações Mínimas: Para cada local listado, o sistema deve exibir no mínimo o nome, tipo e uma breve descrição.
+
 RN005 - Requerimento de Login para Preferências: A funcionalidade de cadastro e atualização de preferências do usuário só deve estar disponível para usuários autenticados.
 RN006 - Prioridade de Acessibilidade: Ao buscar hotéis, a acessibilidade deve ser um critério de filtragem primário, independentemente do orçamento.
 RN007 - Dados de Terceiros: Informações sobre locais (descrições, fotos, avaliações) podem ser obtidas de APIs de terceiros confiáveis, mas a atribuição deve ser clara.
