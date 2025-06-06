@@ -22,3 +22,4 @@ Hotéis acessíveis – solicita um orçamento diário ou usa o valor salvo nas 
 Restaurantes personalizados – apresenta restaurantes alinhados ao perfil alimentar do usuário.
 Seleção de local: O usuário pode clicar em qualquer item da lista para ver mais detalhes.
 Exibição de detalhes: Ao selecionar um local, o app mostra informações completas (descrição, localização, avaliações e faixas de preço) para auxiliar na decisão.
+
