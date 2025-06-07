@@ -34,5 +34,5 @@ APIs externas: API de Geolocalização (Google Maps, OpenStreetMap) para captura
 
 ## 👥 Integrantes
 - Agnaldo Bispo de Alcantara Neto
-- Nome 2 
+- Anderson da Silva Barreto
 
