@@ -16,6 +16,8 @@ Meu grupo só teve duas pessoas, nois dividimos e um fez os diagramas e etc..., 
 
 Contribuí de forma significativa na elaboração dos diagramas do projeto, incluindo o diagrama de classes, diagrama de atividades, diagrama de estados e também no apoio à estruturação do repositório conforme os padrões exigidos. Busquei sempre manter a consistência entre os elementos do sistema e garantir que os diagramas representassem fielmente os requisitos levantados.
 
+*Nome: *
+
 
 ## ⏳ Gestão do Tempo
 
