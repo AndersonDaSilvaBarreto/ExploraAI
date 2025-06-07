@@ -24,10 +24,8 @@ Contribuí de forma significativa na elaboração dos diagramas do projeto, incl
 *3. Como foi o planejamento e o uso do tempo durante o desenvolvimento do projeto?*
 
 Bom (alguns atrasos, mas nada crítico)
+Conseguimos dividir as tarefas, e mesmo com alguns imprevistos, conseguimos entregar tudo. mas algumas decisões e ajustes finais exigiram um pouco mais de tempo.
 
-*Justificativa:* Conseguimos dividir as tarefas desde o início, e mesmo com alguns imprevistos, conseguimos entregar tudo. mas algumas decisões e ajustes finais exigiram um pouco mais de tempo próximo à entrega.
-
----
 
 ## 📚 Aprendizados
 
