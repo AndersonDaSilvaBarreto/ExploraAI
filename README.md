@@ -1,6 +1,6 @@
 # ExploraAí: Seu Guia de Viagem Inteligente
 
-## 💡O ExploraAí é um aplicativo intuitivo que personaliza sua experiência de viagem, oferecendo recomendações de locais turísticos, hotéis acessíveis e restaurantes com base na sua localização e preferências. Perfeito para viajantes e entusiastas, ele simplifica a descoberta e o planejamento de roteiros, garantindo que você encontre exatamente o que procura para sua próxima aventura.
+## 💡O ExploraAí é um aplicativo intuitivo que personaliza sua experiência de viagem, oferecendo recomendações de locais turísticos, hotéis acessíveis e restaurantes com base na sua localização e preferências, perfeito para viajantes e entusiastas, ele simplifica a descoberta e o planejamento de roteiros, garantindo que você encontre exatamente o que procura para sua próxima aventura.
 
 
 
